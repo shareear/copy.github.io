@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/172c5b3915.js" crossorigin="anonymous"></script>
+  <title>Home-Handmade Kids Shop | Elementor Kid Library</title>
+</head>
+<body>
+  <header>
+    <section class="ad" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="400">
+      <div class="ad-line">
+        <h4>free international shipping on orders over $99</h4>
+      </div>
+    </section>
+    <section class="menu_bar">
+      <div class="navigation-head">
+        <button onclick="openPopup()"><i class="fas fa-search"></i></button>
+                <div id="myPopup" class="popup">
+                  <div class="popup-content">
+                    <form class="popup-form">
+                      <input type="text" placeholder="Search..." class="popup-input">
+                      <button value="submit" class="submit">search</button>
+                    </form>
+                    <span class="close" onclick="closePopup()">&times;</span>
+                  </div>
+                </div>
+        <div class="logo">
+          <img src="img/Logo-230220221436.svg">
+        </div>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="">COSTUMES</a></li>
+            <li><a href="">TOYS</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href=""><i class="fa fa-bag-shopping"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div class="initial-body">
+    <div class="content">
+      <h3 data-aos="fade-up" 
+      data-aos-easing="linear"
+      data-aos-duration="400">handmade luxury</h3>
+      <h1>children's costumes</h1>
+      <div class="button">
+        <button data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="400">discover costumes</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="second-part">
+    <div class="card-area">
+      <div class="first-card">
+        <div class="card-image">
+          <a href=""><img src="img/Costumes-Product_03.jpg"></a>
+          <span>Sale!</span>
+        </div>
+        <div class="card-title">
+          <h2>Hedgehog Costume</h2>
+          <span class="prev-price">$59.99</span>
+          <span class="present-price">$49.99</span>
+        </div>
+        <div class="cart">
+          <a href=""><h2>Add to cart</h2></a>
+        </div>
+      </div>
+
+      <div class="second-card">
+        <div class="card-image">
+          <a href=""><img src="img/Costumes-Product_05.jpg"></a>
+          <span>Sale!</span>
+        </div>
+        <div class="card-title">
+          <h2>Deer Costume</h2>
+          <span class="prev-price">$59.99</span>
+          <span class="present-price">$49.99</span>
+        </div>
+        <div class="cart">
+          <a href=""><h2>Add to cart</h2></a>
+        </div>
+      </div>
+      <div class="third-card">
+          <h2 class="punch-line">fun costumes, smiling kids</h2>
+          <p data-aos="fade-down">fill your kids with excitement when they get to wear unique costumes</p>
+
+          <span><a href=""data-aos="fade-down">discover costumes</a></span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="third-part">
+    <h2 class="banner-title" data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="400">we also have toys!</h2>
+    <p class="banner-para" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="400">let your children learn and play with our homemade<br>wooden toys</p>
+    <div class="card-area">
+      <div class="second-card-one">
+        <div class="first-card toys">
+          <div class="card-image second">
+            <a href=""><img src="img/Toys-Product_01.jpg"></a>
+          </div>
+          <div class="card-title line-two">
+            <h2>swimming goldfish</h2>
+            <span class="present-price drag">$39.99</span>
+          </div>
+          <div class="cart line">
+            <a href=""><h2>Add to cart</h2></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-card-one">
+        <div class="first-card toys">
+          <div class="card-image second">
+            <a href=""><img src="img/Toys-Product_03.jpg"></a>
+            <span>Sale!</span>
+          </div>
+          <div class="card-title line-two">
+            <h2>standing stegosaurus</h2>
+            <span class="prev-price">$49.99</span>
+            <span class="present-price drag">$39.99</span>
+          </div>
+          <div class="cart line">
+            <a href=""><h2>Add to cart</h2></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-card-one">
+        <div class="first-card toys">
+          <div class="card-image second">
+            <a href=""><img src="img/Toys-Product_06.jpg"></a>
+            <span>Sale!</span>
+          </div>
+          <div class="card-title line-two">
+            <h2>safari animal set</h2>
+            <span class="prev-price">$99.99</span>
+            <span class="present-price drag">$79.99</span>
+          </div>
+          <div class="cart line">
+            <a href=""><h2>Add to cart</h2></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="discover-toys">
+      <a href="">discover toys</a>
+    </div>
+  </div>
+
+
+  <div class="fourth-part">
+    <div class="left-title">
+      <div class="title-box">
+        <div class="paragraph">
+          <div class="title-head">
+            <h2>what sets us apart</h2>
+          </div><br>
+          <div class="title-para">
+            <p>we are changing the way children enjoy costumes and toys! for ove 8 years, we have been producing and sellingy high-quality, handmade items with a seamless online shopping experience.</p>
+          </div>
+        </div>
+
+
+        <div class="img-graph">
+          <section class="section-one">
+            <div class="img"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="200">
+              <img src="img/download.jpeg" alt="homemade">
+              <span><h2>handmade products</h2></span>
+              <span><p>all products are handmade locally</p></span>
+            </div>
+  
+            <div class="img"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="200">
+              <img src="img/download (1).jpeg" alt="homemade">
+              <span><h2>free returns</h2></span>
+              <span><p>not satisfied? no problem</p></span>
+            </div>
+          </section>
+          <section class="section-two">
+            <div class="img"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="200">
+              <img src="img/download (2).jpeg" alt="homemade">
+              <span><h2>gift wrapping</h2></span>
+              <span><p>custom wrapping and gift notes available</p></span>
+            </div>
+  
+            <div class="img"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="200">
+              <img src="img/download (3).jpeg" alt="homemade">
+              <span><h2>luxury quality</h2></span>
+              <span><p>all items are made with organic materials</p></span>
+            </div>
+          </section>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <div class="fifth-part">
+    <div class="gallery">
+      <div class="gallery-slogan">
+        <h2 class="slogan" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="400">join our</h2>
+        <p data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="400">imaginative world @Mismish</p>
+      </div>
+      <div class="kids-gallery">
+        <section class="gallery-section-one">
+          <div class="display-one" data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="400"></div>
+        <div class="display-two" data-aos="zoom-in" 
+        data-aos-easing="linear"
+        data-aos-duration="400"></div>
+        </section>
+        <section class="gallery-section-two">
+          <div class="display-three" data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="400"></div>
+        <div class="display-four" data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="400"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <section>
+      <div class="brand-image">
+        <a href="index.html">
+          <img src="img/Logo-Light.svg" alt="">
+        </a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="first-container">
+        <div class="second-container">
+          <div class="main-container">
+            <h5 class="container">
+              <span>join our newsletter</span>
+              <p>sign up to receive updates on promotion, early access to new products, and more </p>
+            </h5>
+          </div>
+        </div>
+
+
+
+
+        <div class="sign-up">
+          <div class="form-control">
+            <div class="mail-line">
+              <form>
+                <input type="email" class="email" placeholder="Email address">
+                <button value="submit">
+                 <a href="">sign up</a></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div class="shop" id="menu">
+        <div class="shop-container">
+          <div class="shop-items">
+            <div class="shop-title">
+              <h5 class="head">shop</h5>
+            </div>
+            <div class="shop-menu">
+              <ul>
+                <li><a href="">costumes</a></li>
+                <li><a href="">toys</a></li>
+                <li><a href="">sale</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="shop" id="customer">
+        <div class="shop-container">
+          <div class="shop-items">
+            <div class="shop-title">
+              <h5 class="head">customer care</h5>
+            </div>
+            <div class="shop-menu">
+              <ul>
+                <li><a href="">shipping & delivery</a></li>
+                <li><a href="">returns & exchange</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="shop" id="about">
+        <div class="shop-container">
+          <div class="shop-items">
+            <div class="shop-title">
+              <h5 class="head">about us</h5>
+            </div>
+            <div class="shop-menu">
+              <ul>
+                <li><a href="">our story</a></li>
+                <li><a href="">contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="shop" id="follow">
+        <div class="shop-container">
+          <div class="shop-items">
+            <div class="shop-title">
+              <h5 class="head">follow us</h5>
+            </div>
+            <div class="shop-menu">
+              <ul>
+                <li><a href=""><span><i class="fa fa-facebook"></i></span>facebook</a></li>
+                <li><a href=""><span><i class="fa fa-twitter"></i></span>twitter</a></li>
+                <li><a href=""><span><i class="fa fa-instagram"></i></span>instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="final-part">
+      <div class="descript">
+        <div class="before-copy">
+          <div class="copyright">
+            <h5>&copy;2023 Mish Mish. All Rights Reserved.</h5>
+          </div>
+          <div class="term-condition">
+            <div class="privacy">
+              <p>privacy policy</p>
+            </div>
+            <div class="conditions">
+              <p>terms & conditions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+
+  <script>
+    function openPopup() {
+    document.getElementById("myPopup").style.display = "block";
+  }
+  
+  function closePopup() {
+    document.getElementById("myPopup").style.display = "none";
+  }
+  </script>
+  
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
